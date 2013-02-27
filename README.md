@@ -4,7 +4,7 @@ Async
 async library for javascript
 
 code sample:
-
+```javascript
 var async=new Async();
 function fun1() {
     var num = arguments[0];
@@ -24,6 +24,6 @@ async.series(fun1.bind(null,2));
 async.series(fun1.bind(null,3));
 async.series(fun1.bind(null,4));
 async.series(fun1.bind(null,5));
-
+```
 
 http://jsfiddle.net/c7KqT/1/
