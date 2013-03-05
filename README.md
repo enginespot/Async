@@ -22,7 +22,7 @@ async.series(fun1.bind(null, 3, 1000));
 async.series(fun1.bind(null, 4, 5000));
 async.series(fun1.bind(null, 5, 1000));
 ```
-
+http://jsfiddle.net/c7KqT/2/
 
 ```javascript
 var async=new Async();
